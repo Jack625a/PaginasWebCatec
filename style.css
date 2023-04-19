@@ -1,0 +1,58 @@
+#Contenedor1 {
+    color:red;
+    background: springgreen;
+}
+#Contenedor2 {
+    color: orange;
+    background: black;
+}
+
+#Subtitulo2 {
+    color:#fff;
+}
+#Contenedor1 p{
+    color:green;
+    font-size: 20pt;
+    font-weight: bold;
+}
+#Contenedor1 #Subtitulo2{
+    color:#fff;
+    font-size: 16pt;
+}
+#Contenedor1 #Subtitulo1{
+    color:orange;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: fantasy;
+}
+#Contenedor2 #Titulo{
+    font-weight: bold;
+    font-family: fantasy;
+    color:brown;
+    text-align: center;
+    padding-top: 25px;
+}
+#Contenedor2 p{
+    font-size: 18pt;
+    font-family: "Impact";
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Seccion1 {
+    color:violet;
+    background: black;
+}
+.Seccion1 .Lista1{
+    color:#fff;
+    font-size: 15pt;
+}.Seccion1 .Lista2{
+    color:lightgreen;
+    font-size: 14pt;
+    font-family: fantasy;
+}
+.Seccion1 p{
+    color:red;
+    text-align: center;
+    
+}
