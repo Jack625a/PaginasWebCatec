@@ -1,10 +1,12 @@
 body{
     background: blue;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
 }
 div{
     width: 80%;
     background: chocolate;
-    vertical-align: ;
+    margin: 20px ;
+    box-shadow: unset;
 }
 img{
     width: 50%;
@@ -15,5 +17,24 @@ img{
     padding-left: 60px;
 }
 h1{
-    padding-left: 50%;
+    padding-left: 10%;
+    text-align: center;
+    color: rgb(185, 223, 20);
+    background-color: violet;
+    width: 300px;
+}
+p{
+    font-size:15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: justify;
+    color: aqua;
+}
+li{
+    color: rgb(13, 216, 63);
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
