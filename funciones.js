@@ -2,11 +2,6 @@
 function sumar(a,b){
     return a+b
 }
-
-document.write(sumar(7,9))
-
-sumar(78,55)
-sumar(6,4)
 //Ejercicio 1- Funciones
 //Realizar una funcion para emular una calculadora simple
 function resta(a,b){
@@ -25,23 +20,19 @@ let num2=parseFloat(prompt("Ingrese el segundo numero: "))
 switch(opcion){
     case 1:
     document.write("<h3>Resultado de la Suma</h3>")
-    let resultado=sumar(num1,num2)
-    document.write("La suma de "+num1+" + "+num2+" = "+resultado)
+    document.write("La suma de "+num1+" + "+num2+" = "+sumar(num1,num2))
     return
     case 2:
     document.write("<h3>Resultado de la Resta</h3>")
-    let resultado=resta(num1,num2)
-    document.write("La resta de "+num1+" - "+num2+" = "+resultado)
+    document.write("La resta de "+num1+" - "+num2+" = "+resta(num1,num2))
     return
     case 3:
     document.write("<h3>Resultado de la Multiplicación</h3>")
-    let resultado=multiplicar(num1,num2)
-    document.write("La multiplicación de "+num1+" x "+num2+" = "+resultado)
+    document.write("La multiplicación de "+num1+" x "+num2+" = "+multiplicar(num1,num2))
     return
     case 4:
     document.write("<h3>Resultado de la División</h3>")
-    let resultado=division(num1,num2)
-    document.write("La división de "+num1+" / "+num2+" = "+resultado)
+    document.write("La división de "+num1+" / "+num2+" = "+division(num1,num2))
     return
     default:
     document.write("La operación es Invalida")
