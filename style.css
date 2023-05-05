@@ -1,0 +1,64 @@
+#contenedor1{
+    color: rgb(192, 223, 19);
+    background: green;
+}
+#contenedor2{
+    color: rgb(231, 161, 9);
+    background: rgb(13, 14, 13);
+}
+#subtitulo1{
+    color: rgb(231, 228, 20);
+    background: black;
+}
+#subtitulo2{
+    color: rgb(223, 148, 10);
+    background: #2606b4;
+}
+#contenedor1 p{
+    color: rgb(228, 12, 163);
+    font-size: 20pt;
+    font-weight: bold;
+}
+#contenedor1 #subtitulo2{
+    color: rgb(225, 238, 229);
+    font-size: 16pt;
+}
+#contenedor1 #subtitulo1{
+    color: rgb(211, 197, 9);
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: fantasy;
+}
+#contenedor2 #titulo{
+    font-weight: bold;
+    font-family: fantasy;
+    color: #d45ba6;
+    text-align: center;
+    padding-top: 25px;
+}
+#contenedor2 p{
+    font-size: 18pt;
+    font-family: "Impact";
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.seccion1{
+    color: #c046d8;
+    background: black;
+}
+.seccion1 .lista1{
+    color: aliceblue;
+    font-size: 15pt;
+}
+.seccion1 .lista2{
+    color: rgb(20, 116, 201);
+    font-size: 15pt;
+}
+.seccion1 p{
+    color: rgb(245, 17, 17);
+    font-size: 15pt;
+}
+
+
+
