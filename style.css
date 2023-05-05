@@ -59,6 +59,32 @@
     color: rgb(245, 17, 17);
     font-size: 15pt;
 }
+#contenedor1 :hover{
+    background: #d45ba6;
+}
+#navegador ul{
+  text-align: center;
+  list-style-type: none;
+}
+#navegador li{
+   display:inline;
+   text-align: center;
+   margin: 20px;
+}
 
-
-
+#navegador li a{
+    color: aqua;
+    padding: 5px;
+    background-color:black;
+    border: 2px solid rgb(201, 12, 122);
+    text-decoration: none;
+ }
+ #navegador li a:hover{
+    background-color: lightsalmon;
+    color: brown;
+ }
+ #navegador{
+    background: aquamarine;
+    height: 20px;
+    text-align: center;
+ }
