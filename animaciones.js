@@ -10,7 +10,8 @@ document.getElementById('btn3').addEventListener('click',function(){
     this.classList.add('animate_shakeX')
 })
 
-setTimeout(()=>{
-    this.classList.remove('animate_shakeX')
-},1000
-)
+document.getElementById('contenedor1').addEventListener('mousemove',function(){
+    this.classList.add('animate__bounce')
+})
+
+document.getElementById('subtitulo').setProperty('-animate-duration', '8s')
