@@ -5,3 +5,6 @@
 .scroll-reveal{
     transition: transform 0.5s ease-in-out
 }
+.container:hover{
+    background: rgb(86, 216, 216)
+}
