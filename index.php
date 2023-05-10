@@ -44,5 +44,10 @@
     </div> 
 <?php } ?>
 </div>
+<h1>Sliders Dinamicos</h1>
+<div class="sliders">
+    <?php include 'slider.php'; ?>
+</div>
 </body>
+<script src="slider.js"></script>
 </html>
