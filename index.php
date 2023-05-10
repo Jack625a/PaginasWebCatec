@@ -1,6 +1,3 @@
-<?php
- //require conexion.php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,12 +13,15 @@
 <?php
     //Conexion a la base de datos
     $mysqli=new mysqli("localhost","root","","paginasweb");
+    if ($mysqli->connect_errno){
+        echo "Error al conectar con la base de datos: ".$mysqli->connect_error;
+    }
     //Consulta para obtener los datos
     $query="SELECT * FROM productos";
     $result=$mysqli->query($query);
     //Ciclo Repetitivo para los componentes dinamicos
     while($row=$result->fetch_assoc()){
-    ?>
+?>
     <div class="card">
     <img src="<?php echo $row['image']; ?>" class="card-img">
     <div class="card-body">
@@ -42,7 +42,7 @@
         </p>
     </div>
     </div> 
-    <?php} ?>
+<?php } ?>
 </div>
 </body>
 </html>
