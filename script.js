@@ -28,3 +28,31 @@ let nombres=prompt("ingrese su nombre")
 let correo=prompt("ingrese su correo")
 alert("hola bienvenido "+nombres+"  correo es:"+correo)
 //operadores en javascript
+let a=5
+let b=2
+suma=a+b
+resta=a-b
+multiplicacion=a*b
+division=a/b
+a++
+b--
+-a
+-b
+alert("la suma de "+a+"+"+b+" es: "+suma)
+document.write(a!=b)
+document.write(a>b)
+document.write(a<b)
+document.write(a==b)
+
+//condicionales  if
+if(a>=b)
+{  alert("VERDADERO") }
+else
+{  alert("FALSO") }
+ //arrays
+ colores=["rojo","verde","amarillo","cafe"]
+ document.write(colores[3])
+ 
+
+
+
